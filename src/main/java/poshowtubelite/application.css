@@ -1,0 +1,57 @@
+/* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
+.background-display{
+    -fx-background-color: #E8F8F5;      
+}
+
+.main-display{
+    -fx-background-color: #FCF8FE;      
+}
+
+.main-display .tab:selected{
+    -fx-background-color: #FCF8FE;      
+}
+
+.main-display .tab{	
+    -fx-background-color: #FBF8FC;      
+}
+
+.main-display .tab:selected .tab-label{
+	-fx-text-fill: black;      
+}
+
+.main-display .tab .tab-label{
+	-fx-text-fill: grey;      
+}
+
+.main-display .tab-header-area .tab-header-background {
+     -fx-background-color: #F5EEF8;
+}
+
+
+
+.properties-display{
+    -fx-background-color: #F8EFFC;      
+}
+
+.properties-display .tab:selected{
+    -fx-background-color: #F8EFFC;
+}
+
+.properties-display .tab{	
+    -fx-background-color: #FBF8FC;
+}
+
+.properties-display .tab .tab-label{
+	-fx-text-fill: grey;
+}
+
+.properties-display .tab:selected .tab-label{
+	-fx-text-fill: black;
+}
+
+.properties-display .tab-header-area .tab-header-background {
+     -fx-background-color: #FCF8FE;
+}
+
+	
+}
