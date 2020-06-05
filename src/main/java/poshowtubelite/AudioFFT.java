@@ -18,9 +18,7 @@ public class AudioFFT {
   public int specSize = 0;
      
   public boolean isRecording= false;
-  public boolean isSavingRecording= false;
-  
-  public boolean hideTransitions = false; // used to hide transitions on actors during playback
+  public boolean isSavingRecording= false; 
   
   public boolean enabled = true;
   public String songFile="";
@@ -91,12 +89,9 @@ public class AudioFFT {
     int startingIndex=soundArrayIndex;
     
     if (soundArrayIndex>50)
-    	startingIndex = soundArrayIndex -50; //was 150
-    
-    //int checkingCount=0;
-    
-    for (int i = startingIndex; i < soundArray.length; i++) {
-    	//checkingCount++;
+    	startingIndex = soundArrayIndex -50; 
+        
+    for (int i = startingIndex; i < soundArray.length; i++) {    	
     	
     	if (  Math.abs( soundArray[i].songPosition - songPosition) < 0.01 ){ 
     		soundArrayIndex = i;    		    		    
